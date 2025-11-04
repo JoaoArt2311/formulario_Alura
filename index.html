@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles_index.css">
+    <title>Formulario Culturama</title>
+</head>
+<body>
+    <header>
+        <h1>Pesquisa Online</h1>
+    </header>
+    <section>
+        <form action="" method="get">
+            
+            <!-- DADOS PESSOAIS -->
+            <label for="userName">Nome</label>
+            <input type="text" name="userName" required>
+
+            <label for="age">Idade</label>
+            <input type="number" name="age" min="12" max="100" required>
+
+            <label for="birthDay">Data de Nascimento</label>
+            <input type="date" name="birthDay">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" required> 
+
+            <label for="telephone">Telefone</label>
+            <input type="tel" name="telephone" pattern="[0-9]{11}" placeholder="DDD + numeros ('Sem Espaço e Inven')">
+
+            
+
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
