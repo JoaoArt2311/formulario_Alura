@@ -129,10 +129,49 @@
                 <br>
 
                 <label for="musicStyle">Estilo Musical</label>
-                <input id="musicStyle" name="musicStyle" type="text">
-                <datalist id=""></datalist>
+                <input list="styleType" id="musicStyle" name="musicStyle" type="text">
+                <datalist id="styleType">
+                    <option value="Rock">
+                    <option value="Pop">
+                    <option value="Samba">
+                    <option value="Sertanejo">
+                </datalist>
+                <br>
+
+                <label for="userColor">Cor Favorita</label>
+                <input type="color" name="userColor" id="userColor">
+            </fieldset>
+
+            <fieldset>
+                <legend>Opinião</legend>
+                <p>O que achou do nosso serviço ?</p>
+                <input type="radio" name="userStatus" id="status" value="otima">
+                <label for="status">Ótimo</label>
+                <br>
+                <input type="radio" name="userStatus" id="status" value="boa">
+                <label for="status">Boa</label>
+                <br>
+                <input type="radio" name="userStatus" id="status" value="regular">
+                <label for="status">Regular</label>
+                <br>
+                <input type="radio" name="userStatus" id="status" value="ruim">
+                <label for="status">Ruim</label>
+                <br>
+                <label for="descrition">Escreva sua Opinião</label>
+                <br>    
+                <textarea name="userComent" id="descrition"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Confirmações</legend>
+                <input type="checkbox" name="userLgpd" id="userLgpdTerm" value="confirm" required>
+                <label for="userLgpdTerm">Eu aceito participar da pesquisa</label>
+                <br>
+                <input type="checkbox" name="userGetResult" id="getResult" value="confirm">
+                <label for="userLgpdTerm">Desejo receber o resultado por email.</label>
             </fieldset>
             <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
         </form>
     </section>
 </body>
