@@ -1,2 +1,71 @@
-@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background-color: #f9f9f9;
+}
+
+main{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: "Work Sans", sans-serif;;
+}
+
+h1{
+    font-family: "Fjalla One", sans-serif;
+}
+
+img{
+    width: 100px;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+form{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+fieldset{
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+textarea{
+    min-height: 100px;
+}
+
+input [type="radio"] ,
+input [type="checkbox"]{
+    width: auto;
+}
