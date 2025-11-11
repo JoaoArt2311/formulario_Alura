@@ -53,6 +53,11 @@ legend{
     padding: 0 5px;
 }
 
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
 input, select, textarea{
     width: 100%;
     padding: 10px;
@@ -65,7 +70,12 @@ textarea{
     min-height: 100px;
 }
 
-input [type="radio"] ,
-input [type="checkbox"]{
+input[type="radio"],
+input[type="checkbox"]{
     width: auto;
+}
+
+input[type="color"]{
+    width: 40px;
+    padding: 0 5px;
 }
