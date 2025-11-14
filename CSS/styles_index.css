@@ -7,13 +7,6 @@
 /*Fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
-
-/*DaFont*/
-@font-face {
-    font-family:"Spicy" ;
-    src: url('Spicy Sale.ttf') format(truetype);
-}
 
 body{
     background-image: linear-gradient(to top, white, #7a207a);
@@ -23,13 +16,14 @@ main{
     width: 100%;
     max-width: 700px;
     margin: 0 auto;
-    font-family: "Work Sans", sans-serif;;
+    font-family: "Work Sans", sans-serif;
 }
 
 h1{
-    font-family: "Spicy";
+    font-family: "Momo Trust Display", sans-serif;
     text-align: center;
-    color: white ;
+    color:  white;
+    font-size: 80px;
     
 }
 
